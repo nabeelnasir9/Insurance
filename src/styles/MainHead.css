@@ -13,29 +13,17 @@
   line-height: 24px;
   text-align: center;
 }
-
-/* Tooltip arrow */
 .MuiTooltip-popper .MuiTooltip-arrow {
-  color: white; /* or any desired color */
+  color: white; 
 }
-
-/* If using light theme, adjust this */
 .MuiTooltip-popper[data-popper-placement*="bottom"] .MuiTooltip-tooltipArrow {
   bottom: 0;
   left: 0;
   margin-bottom: -0.71em;
 }
-
-/* More arrow adjustments for other placements */
-/* You can adjust for top, left, and right as well */
-
-/* Hide or adjust the touch listener if there's any */
 .MuiTooltip-popper .MuiTouchRipple-root {
-  display: none; /* or adjust styles */
+  display: none; 
 }
-
-
-
 .main-container {
   padding: 20px;
   font-family: 'outfit';
